@@ -1,0 +1,15 @@
+.upgrade__ul {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.upgrade__ul li {
+  list-style: disc;
+  text-align: left;
+}
+
+.upgrade__ul li:not(:last-child) {
+  margin-bottom: 3px;
+}
+/*# sourceMappingURL=upgrade.module.css.map */

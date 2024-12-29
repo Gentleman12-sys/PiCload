@@ -1,0 +1,159 @@
+.profile__block {
+  height: 80px;
+  border-radius: 20px;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 320px; // Оставим это, чтобы не было слишком маленьким
+  width: 80%; // Устанетсяовим ширину на 100% для резиновости
+  background: url("../../../../img/banners/contentbackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .circle__avatar {
+    border-radius: 50%;
+    height: 108px;
+    margin-top: -10px;
+    width: 108px;
+    background: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.circle__name {
+      background: linear-gradient(to bottom, #f5b11e, #a5700c);
+    }
+
+    .avatar {
+      border-radius: 50%;
+      width: 80%;
+      height: 80%;
+      border: none;
+      outline: none;
+    }
+
+    p {
+      font-size: 58px;
+      color: #fff;
+    }
+  }
+  .section__info {
+    width: 30px;
+    height: 30px;
+    background: #202020;
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .profile__section {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    &.balance__section {
+      align-items: flex-start;
+    }
+
+    .section__name {
+      font-family: "SFdisplay";
+      color: #fff;
+      font-size: 11px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      margin-bottom: 5px;
+    }
+    .memory__block {
+      color: #fff;
+      width: 80%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      font-weight: 700;
+      font-size: 18px;
+      .memory__type {
+        color: #ffc60b;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: 12px;
+        margin-right: 5px;
+      }
+    }
+    .all__memory {
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      width: 80%;
+      display: flex;
+      justify-content: flex-end;
+      background: linear-gradient(210.96deg, #ffc60b 7.5%, #dd9b2f 92.5%);
+      margin-top: 5px;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      img {
+        margin-right: 5px;
+      }
+    }
+
+    .balance__block {
+      color: #fff;
+      width: 80%;
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 18px;
+
+      .balance {
+        font-size: 18px;
+      }
+
+      .balance__type {
+        background: linear-gradient(208.81deg, #f51e5e 6.21%, #ff3c8b 90.24%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: 12px;
+        margin-left: 5px;
+      }
+    }
+    .withdraw {
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      width: 80%;
+      display: flex;
+      margin-top: 5px;
+      background: linear-gradient(208.81deg, #f51e5e 6.21%, #ff3c8b 90.24%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      img {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+.profile__name {
+  margin-top: 40px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.profile__username {
+  color: #ffc018;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+@media (max-width: 426px) {
+  .profile__block {
+    width: 90%;
+  }
+}

@@ -1,0 +1,29 @@
+.category {
+  margin-top: 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.category .section__name {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  z-index: 2;
+}
+
+.category .section__description {
+  color: #ffffff80;
+  font-size: 12px;
+  margin-top: 7px;
+  z-index: 2;
+}
+
+.category .line {
+  height: 1px;
+  width: 100%;
+  border-bottom: 0.5px solid #ffffff1a;
+  margin-top: 25px;
+}
+/*# sourceMappingURL=shop-products.module.css.map */

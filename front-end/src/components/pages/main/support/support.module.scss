@@ -1,0 +1,22 @@
+.support__section {
+  margin-top: 40px;
+  height: fit-content;
+  width: 80%;
+  .section__name {
+    font-size: 18px;
+    color: #fff;
+  }
+  .section__description {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #ffffff80;
+  }
+  .contacts {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 426px) {
+  .support__section {
+    width: 90%;
+  }
+}

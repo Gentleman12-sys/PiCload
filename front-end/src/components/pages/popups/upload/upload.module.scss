@@ -1,0 +1,218 @@
+.emoji__wrapper {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+  img {
+    width: 19px;
+    height: 16px;
+  }
+  &.nature {
+    background: linear-gradient(138.01deg, #f3b33c -1.58%, #f2345d 104.27%);
+  }
+  &.architect {
+    background: linear-gradient(135deg, #cef61a 0%, #62fbcd 100%);
+  }
+  &.sport {
+    background: linear-gradient(0deg, #dbf1ff, #dbf1ff),
+      linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.6) 0%,
+        rgba(185, 230, 254, 0.6) 100%
+      );
+  }
+  &.eat {
+    background: linear-gradient(86.72deg, #04fcf4 -86.72%, #ffd1e6 113.66%);
+  }
+  &.adventure {
+    background: linear-gradient(210.96deg, #ffc60b 7.5%, #dd9b2f 92.5%);
+  }
+}
+.popup__title {
+  margin: 20px auto 20px auto;
+  font-size: 22px;
+  width: fit-content;
+}
+.popup__content {
+  width: 100%;
+  height: 206px;
+  display: flex;
+  justify-content: center;
+
+  .uploader {
+    width: 331px;
+    height: 100%;
+    border: 1px dashed #ffc60b;
+    border-radius: 16px;
+    position: relative;
+    color: #fff;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+    
+    img {
+      width: 180px;
+      height: 70px;
+      object-fit: cover;
+    }
+
+    button {
+      width: fit-content;
+      padding: 10px;
+    }
+
+    >p {
+      color: #FFFFFF1C;
+      position: relative;
+      width: 100%;
+      text-align: center;
+      font-size: 8px;
+      margin: 0;
+
+      &::after, &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 45%;
+        height: 1px;
+        background-color: #FFFFFF1C;
+      }
+
+      &::after {
+        left: 0;
+      }
+
+      &::before {
+        right: 0;
+      }
+    }
+
+    &.uploader__active {
+      background-color: #ffffff2a;
+    }
+
+    input[type="file"] {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: -50%;
+      left: 0;
+      display: block !important;
+      opacity: 0 !important;
+      z-index: -999;
+    }
+
+    .upload__area {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateY(-100%);
+      width: 100%;
+      height: 100%;
+      border-radius: 1rem;
+    }
+  }
+}
+
+.image__manager {
+  width: 100%;
+  min-height: 50vh;
+
+  .images__wrapper {
+    margin-bottom: 12px;
+
+    .image__preview {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      margin-top: 24px;
+
+      .preview__data {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        img {
+          width: 28px;
+          height: 28px;
+          object-fit: cover;
+        }
+
+        div {
+          p {
+            width: fit-content;
+            margin: 0;
+
+            &:first-child {
+              font-size: 12px;
+              margin-bottom: 5px;
+            }
+
+            &:last-child {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+
+      button {
+        width: 28px;
+        height: 28px;
+        background-color: transparent;
+        cursor: pointer;
+
+        span {
+          rotate: 45deg;
+          font-size: 52px;
+          color: #ffc60b;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+
+  > button {
+    margin: auto;
+  }
+}
+
+.progress__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  min-height: 120px;
+  margin: 50px auto;
+  position: relative;
+  color: #fff;
+
+  .progress__container {
+    width: 100%;
+    height: 10px;
+    background-color: #181818;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding: 0 3px;
+    display: flex;
+    align-items: center;
+    
+    .progress__bar {
+      height: 60%;
+      background: linear-gradient(138.01deg, #f3b33c -1.58%, #f2345d 104.27%);
+      transition: width 0.2s ease;
+      border-radius: 15px;
+    }
+  }
+}

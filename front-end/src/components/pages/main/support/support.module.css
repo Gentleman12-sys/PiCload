@@ -1,0 +1,29 @@
+.support__section {
+  margin-top: 40px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 80%;
+}
+
+.support__section .section__name {
+  font-size: 18px;
+  color: #fff;
+}
+
+.support__section .section__description {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #ffffff80;
+}
+
+.support__section .contacts {
+  margin-top: 10px;
+}
+
+@media (max-width: 426px) {
+  .support__section {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=support.module.css.map */

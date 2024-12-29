@@ -1,0 +1,131 @@
+.bonus {
+  width: 100%;
+  height: fit-content;
+  background: linear-gradient(#202020, #202020) padding-box,
+    linear-gradient(
+        109.28deg,
+        rgba(255, 255, 255, 0.12) -0.12%,
+        rgba(255, 255, 255, 0) 100.12%
+      )
+      border-box;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 10px;
+  .bonus__top {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .bonus__state {
+      height: 20px;
+      min-width: 105px;
+      border-radius: 26px;
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+
+      &.not__completed {
+        background: #d44d4d;
+      }
+      &.completed {
+        background: #5eca72;
+      }
+    }
+    .line {
+      max-width: 161px;
+      width: 100%;
+      height: 1px;
+      margin-left: 20px;
+      margin-right: 20px;
+      border-bottom: 0.5px solid #ffffff1a;
+    }
+    .bonus__reward {
+      height: 20px;
+      min-width: fit-content;
+      padding: 0 5px;
+      border-radius: 26px;
+      color: #ffc60b;
+      font-size: 10px;
+      border: 1px solid #ffc60b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .bonus__info {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    .bonus__text {
+      height: 100%;
+      width: 90%;
+      .bonus__name {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+      .bonus__description {
+        color: #ffffff80;
+        font-size: 11px;
+        margin-top: 5px;
+        text-align: start;
+        line-height: 1.5;
+        width: 90%;
+      }
+    }
+  }
+  .bonus__ask {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+
+    .ask {
+      color: #fff;
+      font-weight: 400;
+      font-size: 12px;
+
+      span{
+        background: linear-gradient(135deg, #CEF61A 0%, #62FBCD 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-weight: 800;
+      }
+    }
+    .open__ask{
+        margin-right: 14px;
+    }
+  }
+}
+
+@media(max-width: 401px){
+  .bonus{
+    .bonus__info{
+      .bonus__text{
+        .bonus__name{
+          font-size: 14px;
+        }
+        .bonus__description{
+          font-size: 9px;
+        }
+      }
+    }
+    .bonus__ask{
+      margin-top: 10px;
+      .ask{
+        font-size: 10px;
+        margin-top: 0;
+      }
+    }
+  }
+}

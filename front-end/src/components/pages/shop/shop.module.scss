@@ -1,0 +1,54 @@
+.shop__page {
+  max-width: 480px;
+  height: 100%;
+  background: #0d0d0d;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 150px;
+
+  .banner__wrapper {
+    width: 80%;
+    height: 230px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-bottom: 0.5px solid #FFFFFF1A;
+
+    .page__name {
+      background: linear-gradient(135deg, #cef61a 0%, #62fbcd 100%);
+      font-size: 36px;
+      font-weight: 900;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .page__description {
+      color: #ffffffbf;
+      font-size: 12px;
+      text-align: center;
+      line-height: 1.4;
+
+      span {
+        background: linear-gradient(86.86deg, #04fcf4 0.73%, #ffd1e6 99.35%);
+        font-weight: 700;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    .page__banner{
+        height: 200px;
+        position: absolute;
+        scale: 1.2;
+        margin-top: 50px;
+    }
+  }
+  .shop__categories{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+  }
+}

@@ -1,0 +1,277 @@
+.emoji__wrapper {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.emoji__wrapper img {
+  width: 19px;
+  height: 16px;
+}
+
+.emoji__wrapper.nature {
+  background: linear-gradient(138.01deg, #f3b33c -1.58%, #f2345d 104.27%);
+}
+
+.emoji__wrapper.architect {
+  background: linear-gradient(135deg, #cef61a 0%, #62fbcd 100%);
+}
+
+.emoji__wrapper.sport {
+  background: -webkit-gradient(linear, left bottom, left top, from(#dbf1ff), to(#dbf1ff)), -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.6)), to(rgba(185, 230, 254, 0.6)));
+  background: linear-gradient(0deg, #dbf1ff, #dbf1ff), linear-gradient(90deg, rgba(255, 255, 255, 0.6) 0%, rgba(185, 230, 254, 0.6) 100%);
+}
+
+.emoji__wrapper.eat {
+  background: linear-gradient(86.72deg, #04fcf4 -86.72%, #ffd1e6 113.66%);
+}
+
+.emoji__wrapper.adventure {
+  background: linear-gradient(210.96deg, #ffc60b 7.5%, #dd9b2f 92.5%);
+}
+
+.popup__title {
+  margin: 20px auto 20px auto;
+  font-size: 22px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.popup__content {
+  width: 100%;
+  height: 206px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.popup__content .uploader {
+  width: 331px;
+  height: 100%;
+  border: 1px dashed #ffc60b;
+  border-radius: 16px;
+  position: relative;
+  color: #fff;
+  padding: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 14px;
+}
+
+.popup__content .uploader input {
+  z-index: -999;
+}
+
+.popup__content .uploader img {
+  width: 180px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.popup__content .uploader button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+}
+
+.popup__content .uploader > p {
+  color: #FFFFFF1C;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 8px;
+  margin: 0;
+}
+
+.popup__content .uploader > p::after, .popup__content .uploader > p::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 45%;
+  height: 1px;
+  background-color: #FFFFFF1C;
+}
+
+.popup__content .uploader > p::after {
+  left: 0;
+}
+
+.popup__content .uploader > p::before {
+  right: 0;
+}
+
+.popup__content .uploader.uploader__active {
+  background-color: #ffffff2a;
+}
+
+.popup__content .uploader input[type="file"] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -50%;
+  left: 0;
+  display: block !important;
+  opacity: 0 !important;
+}
+
+.popup__content .uploader .upload__area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.image__manager {
+  width: 100%;
+  min-height: 50vh;
+}
+
+.image__manager .images__wrapper {
+  margin-bottom: 12px;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.image__manager .images__wrapper .image__preview {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.image__manager .images__wrapper .image__preview .preview__data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.image__manager .images__wrapper .image__preview .preview__data img {
+  width: 28px;
+  height: 28px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.image__manager .images__wrapper .image__preview .preview__data div p {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+}
+
+.image__manager .images__wrapper .image__preview .preview__data div p:first-child {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.image__manager .images__wrapper .image__preview .preview__data div p:last-child {
+  font-size: 10px;
+}
+
+.image__manager .images__wrapper .image__preview button {
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.image__manager .images__wrapper .image__preview button span {
+  rotate: 45deg;
+  font-size: 52px;
+  color: #ffc60b;
+  pointer-events: none;
+}
+
+.image__manager > button {
+  margin: auto;
+}
+
+.progress__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 300px;
+  min-height: 120px;
+  margin: 50px auto;
+  position: relative;
+  color: #fff;
+}
+
+.progress__wrapper .progress__container {
+  width: 100%;
+  height: 10px;
+  background-color: #181818;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  padding: 0 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.progress__wrapper .progress__container .progress__bar {
+  height: 60%;
+  background: linear-gradient(138.01deg, #f3b33c -1.58%, #f2345d 104.27%);
+  -webkit-transition: width 0.2s ease;
+  transition: width 0.2s ease;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=upload.module.css.map */

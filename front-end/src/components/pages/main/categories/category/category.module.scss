@@ -1,0 +1,89 @@
+.category {
+  min-width: 90px;
+  max-width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  .bg__effect {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #202020 30%, #2020203a);
+    border-radius: 15px;
+    scale: 1.007;
+  }
+  &.nature__bg {
+    background-image: url("../../../../../img/banners/natureBackground.png");
+  }
+  &.architect__bg {
+    background-image: url("../../../../../img/banners/architectBackground.png");
+  }
+  &.sport__bg {
+    background-image: url("../../../../../img/banners/sportBackground.png");
+  }
+  &.eat__bg {
+    background-image: url("../../../../../img/banners/foodBackground.png");
+    background-size: cover;
+  }
+  &.adventure__bg {
+    background-image: url("../../../../../img/banners/adventureBg.png");
+  }
+
+  .image__background {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+
+    .category__img{
+      scale: 0.9;
+    }
+
+    justify-content: center;
+    &.nature {
+      background: linear-gradient(138.01deg, #f3b33c -1.58%, #f2345d 104.27%);
+    }
+    &.architect {
+      background: linear-gradient(135deg, #cef61a 0%, #62fbcd 100%);
+    }
+    &.sport {
+      background: linear-gradient(0deg, #dbf1ff, #dbf1ff),
+        linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0.6) 0%,
+          rgba(185, 230, 254, 0.6) 100%
+        );
+    }
+    &.eat {
+      background: linear-gradient(86.72deg, #04fcf4 -86.72%, #ffd1e6 113.66%);
+    }
+    &.adventure {
+      background: linear-gradient(210.96deg, #ffc60b 7.5%, #dd9b2f 92.5%);
+    }
+  }
+  .category__name {
+    color: #fff;
+    font-weight: 800;
+    font-size: 13px;
+    margin-top: 30px;
+    z-index: 1;
+  }
+  .loaded__photos {
+    z-index: 1;
+    font-size: 9px;
+    margin-top: 4px;
+    color: #ffffff80;
+  }
+}

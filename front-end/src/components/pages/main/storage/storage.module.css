@@ -1,0 +1,152 @@
+.storage__section {
+  width: 80%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 40px;
+}
+
+.storage__section .section__name {
+  font-size: 18px;
+  color: #fff;
+}
+
+.storage__section .section__description {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #ffffff80;
+}
+
+.storage__section .progress__bar {
+  width: 100%;
+  background: #202020;
+  height: 30px;
+  margin-top: 7px;
+  border-radius: 16px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#202020), to(#202020)) padding-box, -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(37, 37, 37, 0.1))) border-box;
+  background: linear-gradient(#202020, #202020) padding-box, linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(37, 37, 37, 0.1) 100%) border-box;
+  border: 2px solid transparent;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  position: relative;
+}
+
+.storage__section .progress__bar .progress {
+  height: 18px;
+  width: 100%;
+  margin-top: 2px;
+  border-radius: 41px;
+  background: linear-gradient(138.01deg, #f3b33c -1.58%, #f2345d 104.27%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.storage__section .progress__bar .progress .memory__percent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  min-width: 20px;
+  color: #fff;
+  font-size: 10px;
+}
+
+.storage__section .progress__bar .progress .memory__percent.greater__than__ten {
+  position: static;
+  top: unset;
+  left: unset;
+  translate: unset;
+}
+
+.storage__section .other__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.storage__section .other__info .other__memory__info {
+  margin-top: 7px;
+  min-width: 233px;
+  height: 25px;
+  background: #202020;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.storage__section .other__info .other__memory__info::before {
+  content: " ";
+  position: absolute;
+  left: 70px;
+  top: -17px;
+  border: 10px solid transparent;
+  border-top: 10px solid #202020;
+  rotate: 180deg;
+}
+
+.storage__section .other__info .other__memory__info .memory__info {
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.storage__section .other__info .other__memory__info .memory__info span {
+  color: #ffc60b;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.storage__section .other__info .upgrade__button {
+  height: 26px;
+  width: calc(100% - 243px);
+  background: linear-gradient(210.96deg, #ffc60b 7.5%, #dd9b2f 92.5%);
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  border-radius: 12px;
+  margin-top: 5px;
+}
+
+@media (max-width: 426px) {
+  .storage__section {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=storage.module.css.map */

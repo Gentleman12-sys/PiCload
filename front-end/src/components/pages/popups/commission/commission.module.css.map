@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "commission.module.scss"
+    ],
+    "names": [],
+    "file": "commission.module.css"
+}

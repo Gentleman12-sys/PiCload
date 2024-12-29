@@ -1,0 +1,58 @@
+.bonus__page {
+  max-width: 480px;
+  height: 100%;
+  background: #0d0d0d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+.bonus__page .page__preview {
+  width: 80%;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 0.5px solid #ffffff1a;
+}
+
+.bonus__page .page__preview .page__title {
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #cef61a 0%, #62fbcd 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bonus__page .page__preview .page__description {
+  color: #FFFFFFBF;
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bonus__page .bonuses {
+  margin-top: 20px;
+  width: 80%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+/*# sourceMappingURL=bonus.module.css.map */

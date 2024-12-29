@@ -1,0 +1,67 @@
+.popup__name {
+  font-size: 22px;
+  line-height: 18px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+.popup__section {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  // height: 270px;
+  display: flex;
+  flex-flow: column;
+  .input__name {
+    color: #ffffff80 !important;
+    font-size: 12px !important;
+    letter-spacing: 1px;
+    margin-bottom: 0 !important;
+    text-align: left;
+    margin-top: 12px;
+  }
+  .input__wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    select > option {
+      color: #000;
+    }
+
+    select, input {
+      width: 100%;
+      border-radius: 15px;
+      height: 41px;
+      margin-top: 12px;
+      border-radius: 15px;
+      outline: none;
+
+      background: linear-gradient(#202020, #202020) padding-box,
+        linear-gradient(
+            109.28deg,
+            rgba(255, 255, 255, 0.15) -0.12%,
+            rgba(255, 255, 255, 0) 100.12%
+          )
+          border-box !important;
+      border: 1.5px solid transparent !important;
+      padding-left: 10px;
+      color: #ffffffbf;
+      letter-spacing: 1px;
+    }
+  }
+  .save__data {
+    background: linear-gradient(210.96deg, #ffc60b 7.5%, #dd9b2f 92.5%);
+    width: 85px;
+    height: 25px;
+    border-radius: 12px;
+    position: absolute;
+    margin-top: 12px;
+    margin-right: 12px;
+
+    &:disabled {
+      opacity: .7;
+      pointer-events: none;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.main__page {
+  width: 480px;
+  height: 100%;
+  background: #0d0d0d;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 50px;
+}
+@media(max-width: 426px){
+  .main__page{
+    width: 100vw;
+  }
+}

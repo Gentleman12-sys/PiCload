@@ -1,0 +1,14 @@
+.upgrade__ul {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 24px;
+
+  li {
+    list-style: disc;
+    text-align: left;
+
+    &:not(:last-child) {
+      margin-bottom: 3px;
+    }
+  }
+}

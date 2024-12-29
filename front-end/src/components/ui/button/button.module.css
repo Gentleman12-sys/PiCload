@@ -1,0 +1,105 @@
+button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  border: none;
+  padding: 0;
+}
+
+button.login__button {
+  height: 50px;
+  width: 80%;
+  margin-top: 40px;
+  border-radius: 20px;
+  background: linear-gradient(138.01deg, #f3b33c -1.58%, #f2345d 104.27%);
+  -webkit-box-shadow: 6px 6px 4px 0px #ffffff1a inset;
+          box-shadow: 6px 6px 4px 0px #ffffff1a inset;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+button.login__button p {
+  margin-left: 10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: "SFdisplay";
+  font-weight: 300;
+}
+
+button.login__button img {
+  margin-right: 10px;
+}
+
+button.login__button:active {
+  scale: 1.05;
+}
+
+button.contact__button {
+  width: 56px;
+  height: 34px;
+  max-height: 48px;
+  border-radius: 14px;
+  background: linear-gradient(138.01deg, #f3b33c -1.58%, #f2345d 104.27%);
+}
+
+button.contact__button p {
+  margin: 0 !important;
+}
+
+button.bonus__button {
+  width: 45px;
+  height: 39px;
+  background: linear-gradient(138.01deg, #f3b33c -1.58%, #f2345d 104.27%);
+  border-radius: 14px;
+}
+
+button.close__button {
+  background: linear-gradient(210.96deg, #ffc60b 7.5%, #dd9b2f 92.5%);
+  width: 104px;
+  height: 33px;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+}
+
+button.buy__button {
+  background: linear-gradient(210.96deg, #ffc60b 7.5%, #dd9b2f 92.5%);
+  height: 33px;
+  border-radius: 16px;
+  margin-top: 10px;
+  padding: 22px;
+  font-size: 14px;
+}
+
+button.buy__button p {
+  margin: 0 !important;
+}
+
+button.dark__button {
+  background-color: transparent;
+  border: 1px solid #ffc60b;
+  border-radius: 16px;
+  height: 34px;
+  width: 100%;
+  padding: 0 10px;
+}
+
+button.dark__button p {
+  margin: 0 !important;
+}
+/*# sourceMappingURL=button.module.css.map */

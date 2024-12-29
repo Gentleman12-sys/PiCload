@@ -1,0 +1,112 @@
+.category {
+  min-width: 90px;
+  max-width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.category .bg__effect {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #202020), to(#2020203a));
+  background: linear-gradient(to top, #202020 30%, #2020203a);
+  border-radius: 15px;
+  scale: 1.007;
+}
+
+.category.nature__bg {
+  background-image: url("../../../../../img/banners/natureBackground.svg");
+}
+
+.category.architect__bg {
+  background-image: url("../../../../../img/banners/architectBackground.svg");
+}
+
+.category.sport__bg {
+  background-image: url("../../../../../img/banners/sportBackground.svg");
+}
+
+.category.eat__bg {
+  background-image: url("../../../../../img/banners/foodBackground.svg");
+}
+
+.category.adventure__bg {
+  background-image: url("../../../../../img/banners/adventureBg.svg");
+}
+
+.category .image__background {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.category .image__background .category__img {
+  scale: 0.9;
+}
+
+.category .image__background.nature {
+  background: linear-gradient(138.01deg, #f3b33c -1.58%, #f2345d 104.27%);
+}
+
+.category .image__background.architect {
+  background: linear-gradient(135deg, #cef61a 0%, #62fbcd 100%);
+}
+
+.category .image__background.sport {
+  background: -webkit-gradient(linear, left bottom, left top, from(#dbf1ff), to(#dbf1ff)), -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.6)), to(rgba(185, 230, 254, 0.6)));
+  background: linear-gradient(0deg, #dbf1ff, #dbf1ff), linear-gradient(90deg, rgba(255, 255, 255, 0.6) 0%, rgba(185, 230, 254, 0.6) 100%);
+}
+
+.category .image__background.eat {
+  background: linear-gradient(86.72deg, #04fcf4 -86.72%, #ffd1e6 113.66%);
+}
+
+.category .image__background.adventure {
+  background: linear-gradient(210.96deg, #ffc60b 7.5%, #dd9b2f 92.5%);
+}
+
+.category .category__name {
+  color: #fff;
+  font-weight: 800;
+  font-size: 13px;
+  margin-top: 30px;
+  z-index: 1;
+}
+
+.category .loaded__photos {
+  z-index: 1;
+  font-size: 9px;
+  margin-top: 4px;
+  color: #ffffff80;
+}
+/*# sourceMappingURL=category.module.css.map */

@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "SFdisplay";
+  src: url("./fonts/Montserrat-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: SFdisplay;
+  user-select: none;
+}
+html {
+  overflow: auto;
+}
+html,
+body {
+  width: 100%;
+  position: relative;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+  outline: none;
+}
+input {
+  outline: none;
+  user-select: auto;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+.white75 {
+  color: #fff;
+  opacity: 75%;
+}
+
+[data-rsbs-overlay] {
+  background-color: #0d0d0d;
+  color: #fff;
+  z-index: 12;
+}
+
+[data-rsbs-content] {
+  width: 100%;
+  background: #0d0d0d;
+  position: fixed;
+  max-height: calc(100vh - 79px);
+  overflow-y: auto;
+  left: 0;
+  text-align: center;
+  padding: 0 22px 32px 22px;
+  transition: 0s;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+[data-rsbs-header] {
+  padding-bottom: 24px;
+  box-shadow: none;
+}
+
+[data-rsbs-header]:before {
+  background-color: #ffffff40;
+}
+
+.swiper {
+  overflow: unset;
+}
+
+.swiper-pagination {
+  width: fit-content !important;
+  transform: translateY(-145px) translateX(calc(100vw - 200%));
+}
+
+.swiper-pagination-bullet {
+  opacity: 0.3;
+  background-color: #fff;
+  transition: 0.05s;
+  width: 6px;
+  height: 6px;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: #fff;
+  width: 12px;
+  border-radius: 5px;
+}

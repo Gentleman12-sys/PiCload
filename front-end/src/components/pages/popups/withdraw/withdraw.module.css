@@ -1,0 +1,75 @@
+.popup__name {
+  font-size: 22px;
+  line-height: 18px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+.popup__section {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.popup__section .input__name {
+  color: #ffffff80 !important;
+  font-size: 12px !important;
+  letter-spacing: 1px;
+  margin-bottom: 0 !important;
+  text-align: left;
+  margin-top: 12px;
+}
+
+.popup__section .input__wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.popup__section .input__wrapper select > option {
+  color: #000;
+}
+
+.popup__section .input__wrapper select, .popup__section .input__wrapper input {
+  width: 100%;
+  border-radius: 15px;
+  height: 41px;
+  margin-top: 12px;
+  border-radius: 15px;
+  outline: none;
+  background: linear-gradient(#202020, #202020) padding-box, linear-gradient(109.28deg, rgba(255, 255, 255, 0.15) -0.12%, rgba(255, 255, 255, 0) 100.12%) border-box !important;
+  border: 1.5px solid transparent !important;
+  padding-left: 10px;
+  color: #ffffffbf;
+  letter-spacing: 1px;
+}
+
+.popup__section .save__data {
+  background: linear-gradient(210.96deg, #ffc60b 7.5%, #dd9b2f 92.5%);
+  width: 85px;
+  height: 25px;
+  border-radius: 12px;
+  position: absolute;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.popup__section .save__data:disabled {
+  opacity: .7;
+  pointer-events: none;
+}
+/*# sourceMappingURL=withdraw.module.css.map */

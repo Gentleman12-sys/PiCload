@@ -1,0 +1,62 @@
+p,
+a,
+span {
+  font-family: "SFdisplay";
+  text-decoration: none;
+}
+
+.login__page {
+  overflow-y: hidden;
+  width: 480px;
+  height: 100vh;
+  background: #141414;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 70px;
+}
+
+.login__page .login__banner {
+  scale: 1.2;
+}
+
+.login__page .login__title {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 40px;
+  text-align: center;
+  width: 80%;
+  margin-top: 60px;
+}
+
+.login__page .login__title span {
+  background: linear-gradient(129.07deg, #f3b33c 42.82%, #f2345d 91.2%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.login__page .login__subtitle {
+  color: #fff;
+  margin-top: 40px;
+  width: 80%;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+}
+
+.login__page .login__privacy {
+  color: #0f3353;
+  width: 80%;
+  text-align: center;
+  margin-top: 40px;
+}
+/*# sourceMappingURL=login.module.css.map */

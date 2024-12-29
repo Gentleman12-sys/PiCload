@@ -1,0 +1,32 @@
+.navigation__menu {
+  z-index: 11;
+  position: fixed;
+  min-width: 100%;
+  min-height: 80px;
+  bottom: 0;
+  left: 0;
+  background: #0d0d0d;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .choosen,
+  .navigation {
+    width: 105px;
+    height: 52px;
+    transition: 0.5s;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    .navigation__name {
+      margin-top: 4px;
+      color: #fff;
+      font-size: 9px;
+    }
+  }
+  .choosen {
+    background: linear-gradient(138.01deg, #f3b33c -1.58%, #f2345d 104.27%);
+    border-radius: 22px;
+  }
+}

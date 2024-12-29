@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACX,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,IAAI;CAUpB;;AAbD,AAKE,YALU,CAKV,EAAE,CAAC;EACD,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,IAAI;CAKjB;;AAZH,AASI,YATQ,CAKV,EAAE,AAIC,IAAK,CAAA,WAAW,EAAE;EACjB,aAAa,EAAE,GAAG;CACnB",
+    "sources": [
+        "upgrade.module.scss"
+    ],
+    "names": [],
+    "file": "upgrade.module.css"
+}

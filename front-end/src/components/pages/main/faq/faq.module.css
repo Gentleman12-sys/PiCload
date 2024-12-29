@@ -1,0 +1,59 @@
+.faq__section {
+  margin-top: 40px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 300px;
+  width: 80%;
+  padding-bottom: 100px;
+}
+
+.faq__section .section__name {
+  font-size: 18px;
+  color: #fff;
+}
+
+.faq__section .section__description {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #ffffff80;
+}
+
+.faq__section .contacts {
+  margin-top: 10px;
+}
+
+.faq__section .questions {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.faq__section .questions .withdraw {
+  background: linear-gradient(135deg, #cef61a 0%, #62fbcd 100%);
+}
+
+.faq__section .questions .comission {
+  background: linear-gradient(138.01deg, #f3b33c -1.58%, #f2345d 104.27%);
+}
+
+.faq__section .questions .where {
+  background: linear-gradient(210.96deg, #ffc60b 7.5%, #dd9b2f 92.5%);
+}
+
+.faq__section .questions .withdraw,
+.faq__section .questions .comission,
+.faq__section .questions .where {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+@media (max-width: 426px) {
+  .faq__section {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=faq.module.css.map */
